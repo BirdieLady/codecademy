@@ -4,64 +4,121 @@
 <head>
     <title>Codecademy Lesson Overview Project</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+          rel="stylesheet">
 </head>
 <body>
-<h1>Codecademy Lesson Overview Project</h1>
-<h2>Fundamentals of HTML</h2>
-<p>HTML is the standard markup language for creating Web pages.</p>
-<h3>Structure & Elements</h3>
-<table>
-    <thead>
-    <tr>
-        <th scope="row" style="text-align: left">Element</th>
-        <th scope="row">Description</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>Adam's Greenworks</td>
-        <td>Description</td>
-    </tr>
-    <tr>
-        <td>Davie's Burgers</td>
-        <td>Description</td>
-    </tr>
-    <tr>
-        <td>Baker's Bike Shop</td>
-        <td>Description</td>
-    </tr>
-    <tr>
-        <td>Miss Sally's Southern</td>
-        <td>Description</td>
-    </tr>
-    <tr>
-        <td>Summit Resort Rentals</td>
-        <td>Description</td>
-    </tr>
-    <tr>
-        <td>Strike Fitness</td>
-        <td>Description</td>
-    </tr>
-    </tbody>
-</table>
+<header>
+    <h1>Codecademy Lesson Overview</h1>
+    <nav>
+        <ul>
+            <li><a href="#fundamentals-of-html">Fundamentals of HTML</a></li>
+            <li><a href="#fundamentals-of-css">Fundamentals of CSS</a></li>
+            <li><a href="#helpful-resources">Helpful Resources</a></li>
+        </ul>
+</header>
 
-<h3>Tables</h3>
-<h3>Semantic HTML</h3>
+<div class="body-content">
+    <h2>Fundamentals of HTML</h2>
+    <p>HTML is the standard markup language for creating Web pages.</p>
+</div>
 
-<h2>Fundamentals of CSS</h2>
-<p>CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts.</p>
-<h3>Selectors & Visual Rules</h3>
-<h3>Box Model</h3>
-<h3>Display & Positioning</h3>
+<div class="body-content">
+    <img class="html-pic" src="./resources/building-the-perfect-html-structure-and-class-names_1687449803.webp"> <!-- Image goes here -->
 
-<h2>Helpful Resources</h2>
-<p>Here are some resources to help you learn more about HTML and CSS:</p>
-<ul>
-    <li><a href="https://www.codecademy.com/learn/learn-html">Codecademy's HTML Course</a></li>
-    <li><a href="https://www.codecademy.com/learn/learn-css">Codecademy's CSS Course</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN's HTML Documentation</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN's CSS Documentation</a></li>
-</ul>
+</div>
 
+<div class="body-content">
+    <h3>Structure & Elements</h3>
+    <p>
+        HTML consists of a series of elements, which you use to enclose or wrap, different parts of the content to make it appear a certain way, or act a certain way.
+    </p>
+</div>
+
+<div class="body-content">
+    <table>
+        <thead>
+        <tr>
+            <th scope="row" style="text-align: left">Element</th>
+            <th scope="row" style="text-align: left">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr>
+            <td><strong>HTML</strong></td>
+            <td>This is the root element of an HTML page. It wraps all the content on the entire page. It is sometimes known as the root element.</td>
+        </tr>
+
+        <tr>
+            <td><strong>Head</strong></td>
+            <td>A container for all the head elements relating to metadata. These typically include title, link, meta, script, and base.
+                <ul>
+                    <li><strong>Title</strong>: Displays in the tab of the browser as the title of the page, and is userful for SEO purposes.</li>
+                    <li><strong>Link</strong>: Used to link to external style sheets.</li>
+                    <li><strong>Meta</strong>: Contains metadata about the HTML document, such as the character set, page description, keywords, author of the document, and more.</li>
+                    <li><strong>Script</strong>: Used to define client-side JavaScript.</li>
+                    <li><strong>Base</strong>: Used to specify the base URL and target for all relative URLs in a page.</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td><strong>Body</strong></td>
+            <td>Contains all the content of an HTML document, such as text, hyperlinks, images, tables, lists, etc.
+                <ul>
+                    <li><strong>Header</strong>: Contains introductory content or navigational aids for the page.</li>
+                    <li><strong>Nav</strong>: Contains a collection of navigational links.</li>
+                    <li><strong>Main</strong>: Contains the main content of the page, such as articles, blog posts, etc.</li>
+                    <li><strong>Section</strong>: Contains related content grouped together, such as blog posts, articles, etc.</li>
+                    <li><strong>Article</strong>: Contains independent, self-contained content, such as blog posts, articles, etc.</li>
+                    <li><strong>Aside</strong>: Contains content that is tangentially related to the content around it, such as sidebars, pull quotes, etc.</li>
+                    <li><strong>Footer</strong>: Contains the footer of the page, such as copyright information, contact information, etc.</li>
+                </ul>
+            </td>
+        </tbody>
+    </table>
+</div>
+
+<div class="body-content">
+    <h3>Tables</h3>
+</div>
+
+<div class="body-content">
+    <h3>Semantic HTML</h3>
+</div>
+
+<div class="body-content">
+    <h2>Fundamentals of CSS</h2>
+    <p>CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts.</p>
+</div>
+
+<div class="body-content">
+    <h3>Selectors & Visual Rules</h3>
+</div>
+
+<div class="body-content">
+    <h3>Box Model</h3>
+</div>
+
+<div class="body-content">
+    <h3>Display & Positioning</h3>
+</div>
+
+<div class="body-content">
+    <h2>Helpful Resources</h2>
+    <p>Here are some resources to help you learn more about HTML and CSS:</p>
+</div>
+
+<div class="body-content">
+    <ul>
+        <li><a href="https://www.codecademy.com/learn/learn-html">Codecademy's HTML Course</a></li>
+        <li><a href="https://www.codecademy.com/learn/learn-css">Codecademy's CSS Course</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN's HTML Documentation</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN's CSS Documentation</a></li>
+    </ul>
+</div>
 </body>
 </html>
