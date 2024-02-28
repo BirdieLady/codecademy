@@ -5,9 +5,8 @@
     <title>Codecademy Lesson Overview Project</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
-          rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -18,22 +17,32 @@
             <li><a href="#fundamentals-of-css">Fundamentals of CSS</a></li>
             <li><a href="#helpful-resources">Helpful Resources</a></li>
         </ul>
+    </nav>
 </header>
 
 <div class="body-content">
-    <h2>Fundamentals of HTML</h2>
-    <p>HTML is the standard markup language for creating Web pages.</p>
+    <h2 id="fundamentals-of-html">Fundamentals of HTML</h2>
+    <p>HTML, or HyperText Markup Language, is the cornerstone of web development, serving as the foundation for creating web pages and applications. It allows developers to structure content with a range of elements and tags, such as <em>p</em> for paragraphs, <em>a</em> for links, and <em>img</em> for images.
+    </p>
+    <p>
+    These elements tell web browsers how to display content, enabling the creation of diverse and interactive web experiences. HTML is not a programming language but a markup language, emphasizing the importance of properly structuring and categorizing content to ensure accessibility and search engine optimization (SEO).
+    </p>
 </div>
 
 <div class="body-content">
+    <figure>
     <img class="html-pic" src="./resources/building-the-perfect-html-structure-and-class-names_1687449803.webp"> <!-- Image goes here -->
-
+    <figcaption style="text-align: center"><em>Photo Credit: TechofTechs</em></figcaption>
+    </figure>
 </div>
 
 <div class="body-content">
     <h3>Structure & Elements</h3>
     <p>
-        HTML consists of a series of elements, which you use to enclose or wrap, different parts of the content to make it appear a certain way, or act a certain way.
+    HTML documents are structured using a nested hierarchy of elements, starting with the html element that encapsulates the entire document. Within this, the <em>head</em> section contains meta-information like the title and links to CSS files, while the <em>body</em> section hosts the content visible to users.
+    </p>
+    <p>
+    Elements, represented by tags, define different parts of a webpage, such as headings (<em>h1</em> through <em>h6</em>), paragraphs (<em>p</em>), and lists (<em>ul</em>, <em>ol</em>). This structure is fundamental for creating organized and accessible web content, allowing browsers to render pages correctly.
     </p>
 </div>
 
@@ -83,42 +92,83 @@
 </div>
 
 <div class="body-content">
-    <h3>Tables</h3>
-</div>
-
-<div class="body-content">
     <h3>Semantic HTML</h3>
+    <p>
+    Semantic HTML involves using specific HTML tags that provide meaning to the web content, helping both browsers and developers understand the purpose and structure of web documents. Unlike stylistic uses of elements (e.g., using <em>b</em> for bold text), semantic elements like <em>article</em>, <em>aside</em>, <em>footer</em>, and <em>nav</em> describe the role of the content in the document.
+    </p>
+    <p>
+    This practice improves SEO, accessibility, and maintainability, as it makes the structure of web pages more logical and easier to interpret by assistive technologies and search engines.
+    </p>
 </div>
 
 <div class="body-content">
-    <h2>Fundamentals of CSS</h2>
-    <p>CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts.</p>
+    <h3>Tables</h3>
+    <p>
+        HTML tables are a way to display data in a grid format, composed of rows and columns. Created with the <em>table</em> element, tables are structured using <em>tr</em> for table rows, <em>td</em> for table data cells, and <em>th</em> for header cells that define column or row headings. Tables can include attributes to control spacing, border thickness, and alignment, making them versatile for displaying anything from simple lists to complex data sets. However, for non-tabular data or complex layouts, CSS-based layouts are recommended for better accessibility and flexibility.
+    </p>
 </div>
+
+<div class="body-content divider">
+</div>
+
+<div class="body-content">
+    <h2 id="fundamentals-of-css">Fundamentals of CSS</h2>
+    <p>
+    CSS, or Cascading Style Sheets, is a powerful tool that defines the look and feel of HTML content on the web. By separating content (HTML) from presentation (CSS), developers can achieve a high degree of control over layout, colors, fonts, and responsiveness across different devices. CSS syntax consists of selectors (identifying the HTML elements to style) and declarations (defining how the elements should be styled), all contained within style sheets. This separation of concerns not only makes websites visually engaging but also enhances maintainability and reusability of code.
+    </p>
+</div>
+
+<div class="body-content">
+    <figure>
+    <img class="html-pic" src="./resources/box-model-of-CSS1.jpg"> <!-- Image goes here -->
+    <figcaption style="text-align: center"><strong>CCS Box Model Diagram</strong></figcaption>
+    <figcaption style="text-align: center"><em>Image Credit: Scaler Topics</em></figcaption>
+    </figure>
+</div>
+
 
 <div class="body-content">
     <h3>Selectors & Visual Rules</h3>
+    <p>
+    CSS selectors are patterns used to select the HTML elements you want to style. From simple selectors that target elements by type, ID, or class, to complex selectors that apply styles based on an element's state or its relationships with other elements, selectors are fundamental to applying CSS styles.
+    </p>
+    <p>
+    Visual rules, defined within curly braces after the selector, specify the styles to be applied, such as color, font size, margin, and padding. Understanding CSS selectors and how to effectively apply visual rules is crucial for creating visually compelling and structurally sound web pages.
+    </p>
 </div>
 
 <div class="body-content">
     <h3>Box Model</h3>
+    <p>
+    The CSS Box Model is a conceptual framework that describes how every element on a web page is rendered as a rectangular box. This model encompasses margins (space outside the border), borders (the outer edge of the element), padding (space between the border and the content), and the content area itself.
+    </p>
+    <p>
+    The box model is fundamental in CSS layout, as it determines how elements interact with each other and how much space they occupy. Understanding and manipulating the box model is essential for precise control over layout and spacing in web design.
+    </p>
 </div>
 
 <div class="body-content">
     <h3>Display & Positioning</h3>
+    <p>
+        In CSS, the display and positioning properties determine how elements are laid out on the page. The <u>display</u> property specifies whether an element is treated as a <strong>block</strong> (occupying its own line), <strong>inline</strong> (flowing with text), or other formats like flex and grid that provide advanced layout capabilities. The <u>position</u> property controls how an element is positioned, with values like <strong>static</strong>, <strong>relative</strong>, <strong>absolute</strong>, and <strong>fixed</strong> offering various ways to place elements in relation to the viewport or other elements. Mastery of display and positioning is key to creating responsive, well-structured web pages that look great on any device.
+    </p>
+</div>
+
+<div class="body-content divider">
 </div>
 
 <div class="body-content">
-    <h2>Helpful Resources</h2>
-    <p>Here are some resources to help you learn more about HTML and CSS:</p>
+    <h2 id="helpful-resources">Helpful Resources</h2>
+    <p>
+    The content provided here offers just a quick overview of HTML and CSS, essential tools for web development. To dive deeper and truly harness the power of these languages, exploring more comprehensive resources is crucial.
+    </p>
+    <p>
+    Websites like <a href="https://developer.mozilla.org/en-US/docs" target="_blank">MDN Web Docs</a>, <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>, and <a href="https://www.codecademy.com/catalog" target="_blank">Codecademy</a> offer extensive tutorials, examples, and interactive exercises that cater to both beginners and experienced developers. Additionally, YouTube channels such as Traversy Media and freeCodeCamp provide visual learning experiences through detailed video tutorials.
+    </p>
+    <p>
+    Whether you prefer self-paced online courses, interactive coding exercises, or traditional textbooks, these resources are invaluable for anyone looking to master HTML and CSS, laying a solid foundation for your journey in web development.
+    </p>
 </div>
 
-<div class="body-content">
-    <ul>
-        <li><a href="https://www.codecademy.com/learn/learn-html">Codecademy's HTML Course</a></li>
-        <li><a href="https://www.codecademy.com/learn/learn-css">Codecademy's CSS Course</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN's HTML Documentation</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN's CSS Documentation</a></li>
-    </ul>
-</div>
 </body>
 </html>
