@@ -1,0 +1,188 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #314F40;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+}
+
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #f5f5dc;
+}
+
+.company-logo {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-image {
+    background-image: url('../resources/pexels-lumn-399160.jpg');
+    background-size: cover;
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: 1;
+}
+
+.quote {
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 220px;
+    z-index: 2;
+}
+
+h1 {
+    color: #f5f5dc;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+h3 {
+    color: #f5f5dc;
+    font-size: 40px;
+    font-family: Satisfy;
+}
+
+h4 {
+    color: #f5f5dc;
+    font-size: 25px;
+    font-family: Satisfy;
+}
+
+.logo {
+    padding-right: 20px;
+    height: 50px;
+}
+
+
+/*!* Universal Styles *!*/
+/*body {*/
+/*  margin: 0px;*/
+/*  background-color: whitesmoke;*/
+/*  font-family: 'Rock Salt', cursive;*/
+/*  text-align: center;*/
+/*}*/
+
+/*.secondary-background {*/
+/*  background-color: snow;*/
+/*}*/
+
+/*.tagline {*/
+/*  font-family: 'Quicksand', sans-serif;*/
+/*  color: lightslategrey;*/
+/*  line-height: 125px;*/
+/*}*/
+
+/*!* Header *!*/
+
+
+/*h1 {*/
+/*  margin: 0;*/
+/*  background-color: steelblue;*/
+/*  line-height: 100px;*/
+/*  color: khaki;*/
+/*}*/
+
+/*h2 {*/
+/*  margin: 10px;*/
+/*}*/
+
+/*!* App Container *!*/
+/*.container {*/
+/*  border: 2px solid snow;*/
+/*  display: flex;*/
+/*}*/
+
+/*!* To Do Section *!*/
+/*.week {*/
+/*  display: inline-flex;*/
+/*  flex-direction: column;*/
+/*  flex-grow: 3;*/
+/*}*/
+
+/*.row {*/
+/*  flex-wrap: wrap;*/
+/*  min-height: 200px;*/
+/*  display: flex;*/
+/*  justify-content: space-around;*/
+/*  align-items: center;*/
+/*}*/
+
+/*.square {*/
+/*  display: flex;*/
+/*  width: 125px;*/
+/*  height: 125px;*/
+/*  padding: 10px;*/
+/*  justify-content: center;*/
+/*  align-items:  center;*/
+/*}*/
+
+/*.day.square {*/
+/*  background-color: steelblue;*/
+/*  border: 1px solid white;*/
+/*}*/
+
+/*.task.square {*/
+/*  background-color: khaki;*/
+/*  border: 1px solid white;*/
+/*}*/
+
+/*.task p {*/
+/*  font-family: 'Quicksand', sans-serif;*/
+/*  font-weight: 700;*/
+/*  font-size: 12px;*/
+/*}*/
+
+/*!* Reminders *!*/
+/*.reminders {*/
+/*  display: inline-flex;*/
+/*  flex-grow: 2;*/
+/*  background-color: khaki;*/
+/*}*/
+
+/*.reminders h3 {*/
+/*  width: 100%;*/
+/*  margin: 10px;*/
+/*  color: black;*/
+/*  line-height: 90px;*/
+/*  font-size: 24px;*/
+/*}*/
+
+/*!* Footer *!*/
+/*footer {*/
+/*  font-size: 24px;*/
+/*}*/
